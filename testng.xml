@@ -11,5 +11,5 @@
       <class name="testScripts.ValidateLogin"/>
       <class name="testScripts.ValidateHome"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Veena Test  testing branch merge -->
 </suite> <!-- Suite -->
