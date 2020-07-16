@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name="customListeners.BDDListener" />
+ </listeners>
+  <test name="Test">
+    <classes>
+    <!--  Give name of TestRunner class -->
+      <class name="testRunner.TestRunner"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

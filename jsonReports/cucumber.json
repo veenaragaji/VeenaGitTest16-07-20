@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7731233700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialize(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user registration is unsuccessful when checkbox not checked",
+        "description": "",
+        "id": "verify-e2e-cucumber-features-validations-with-test-website;verify-user-registration-is-unsuccessful-when-checkbox-not-checked",
+        "after": [
+          {
+            "result": {
+              "duration": 219100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4399145800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has navigated to \"https://rahulshettyacademy.com/#/index\" URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://rahulshettyacademy.com/#/index",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_has_navigated_to_something_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10993597100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on \"Register\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_clicks_on_something_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4129232200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters all manadatory fields except checkbox and click on Register button",
+            "match": {
+              "location": "StepDefinition.user_enters_all_manadatory_fields_except_checkbox_and_click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361821100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify error message is displayed",
+            "match": {
+              "location": "StepDefinition.verify_error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6958894000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialize(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify user navigate to login page successfully",
+        "description": "",
+        "id": "verify-e2e-cucumber-features-validations-with-test-website;verify-user-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 127300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3319651600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has navigated to \"https://rahulshettyacademy.com/#/index\" URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://rahulshettyacademy.com/#/index",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_has_navigated_to_something_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11562650000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on \"Login\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_clicks_on_something_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 610642100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify login page is displayed",
+            "match": {
+              "location": "StepDefinition.verify_login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Verify E2E cucumber features validations with test website",
+    "description": "",
+    "id": "verify-e2e-cucumber-features-validations-with-test-website",
+    "keyword": "Feature",
+    "uri": "E2ETest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]

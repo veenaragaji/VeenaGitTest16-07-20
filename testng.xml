@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+    <listener class-name="customListeners.Listeners" />
+ </listeners>
+
+  <test name="Test">
+    <classes>
+      <!-- <class name="testScripts.ValidateRegister"/>
+      <class name="testScripts.ValidateLogin"/> -->
+      <class name="testScripts.ValidateHome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

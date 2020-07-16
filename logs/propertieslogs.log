@@ -1,0 +1,26 @@
+[FATAL] 2020-06-25 01:41:45.387 [TestNG-test=Test-1] ValidateHome - test fatal
+[INFO ] 2020-06-25 01:41:54.342 [TestNG-test=Test-1] ValidateHome - Browser URL launched
+[INFO ] 2020-06-25 01:41:55.655 [TestNG-test=Test-1] ValidateHome - Home Page validated successfully
+[INFO ] 2020-06-25 01:41:55.800 [TestNG-test=Test-1] ValidateHome - Home Page test method driver is closed
+[FATAL] 2020-06-25 18:19:22.417 [TestNG-test=Test-1] ValidateHome - test fatal
+[INFO ] 2020-06-25 18:19:31.778 [TestNG-test=Test-1] ValidateHome - Browser URL launched
+[INFO ] 2020-06-25 18:19:33.158 [TestNG-test=Test-1] ValidateHome - Home Page validated successfully
+[INFO ] 2020-06-25 18:19:33.345 [TestNG-test=Test-1] ValidateHome - Home Page test method driver is closed
+[FATAL] 2020-06-25 18:20:07.322 [TestNG-test=Test-3] ValidateHome - test fatal
+[INFO ] 2020-06-25 18:20:19.432 [TestNG-test=Test-3] ValidateHome - Browser URL launched
+[INFO ] 2020-06-25 18:20:20.881 [TestNG-test=Test-3] ValidateHome - Home Page validated successfully
+[INFO ] 2020-06-25 18:20:21.121 [TestNG-test=Test-3] ValidateHome - Home Page test method driver is closed
+[FATAL] 2020-06-25 18:24:18.737 [TestNG-test=Test-3] ValidateHome - test fatal
+[INFO ] 2020-06-25 18:24:32.803 [TestNG-test=Test-3] ValidateHome - Browser URL launched
+[INFO ] 2020-06-25 18:24:34.240 [TestNG-test=Test-3] ValidateHome - Home Page validated successfully
+[INFO ] 2020-06-25 18:24:34.586 [TestNG-test=Test-3] ValidateHome - Home Page test method driver is closed
+[FATAL] 2020-06-30 16:50:25.575 [main] ValidateHome - test fatal
+[INFO ] 2020-06-30 16:50:42.381 [main] ValidateHome - Browser URL launched
+[INFO ] 2020-06-30 16:50:43.749 [main] ValidateHome - Home Page test method driver is closed
+[FATAL] 2020-06-30 16:51:37.131 [main] ValidateHome - test fatal
+[INFO ] 2020-06-30 16:51:45.378 [main] ValidateHome - Browser URL launched
+[INFO ] 2020-06-30 16:51:46.529 [main] ValidateHome - Home Page test method driver is closed
+[FATAL] 2020-06-30 16:52:50.097 [main] ValidateHome - test fatal
+[INFO ] 2020-06-30 16:52:58.395 [main] ValidateHome - Browser URL launched
+[INFO ] 2020-06-30 16:52:59.539 [main] ValidateHome - Home Page validated successfully
+[INFO ] 2020-06-30 16:52:59.678 [main] ValidateHome - Home Page test method driver is closed
