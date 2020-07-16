@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 16, 2020 14:00:55</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 16, 2020 15:41:08</span>
 			</a>
 		</ul>
 	</div>
@@ -117,6 +117,22 @@
                 </div>
             </div>
         </div>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'></div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='grandchild-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span>  passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
     </div>
     <div id="timeline-chart" class="row nm-v nm-h">
         <div class="col s12 m12 l12 np-h">
@@ -131,71 +147,278 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>login</span>
-						<span class='test-time'>Jul 16, 2020 14:01:09</span>
+						<span class='test-name'>Feature-Demo Test Framework</span>
+						<span class='test-time'>Jul 16, 2020 15:41:19</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 16, 2020 14:01:09</span>
-	<span class='label end-time'>Jul 16, 2020 14:01:35</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+951ms</span>
+	<span class='label start-time'>Jul 16, 2020 15:41:19</span>
+	<span class='label end-time'>Jul 16, 2020 15:42:26</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 7s+398ms</span>
 </div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:01:09 PM</td>
-				<td class='step-details'>
-						Test execution started through listenerlogin
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:01:10 PM</td>
-				<td class='step-details'>
-						Step1-Login button identified-com.aventstack.extentreports.ExtentTest@658c5a19
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:01:30 PM</td>
-				<td class='step-details'>
-						Step2-Login success-com.aventstack.extentreports.ExtentTest@658c5a19
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:01:30 PM</td>
-				<td class='step-details'>
-						Passed-login
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:01:35 PM</td>
-				<td class='step-details'>
-						Test execution finished
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1  pass' status='pass' test-id='2'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify user registration is unsuccessful when checkbox not checked</div>
+			<span class='node-time'>Jul 16, 2020 15:41:19</span>
+			&middot; <span class='node-duration'>0h 0m 26s+406ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-2 leaf pass' status='pass' test-id='3'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Browser launched</div>
+			<span class='node-time'>Jul 16, 2020 15:41:19</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:41:19 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894279975.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894279975.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='4'>
+		<div class='collapsible-header'>
+			<div class='node-name'>user clicks on Register link</div>
+			<span class='node-time'>Jul 16, 2020 15:41:40</span>
+			&middot; <span class='node-duration'>0h 0m 0s+1ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:41:40 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894300884.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894300884.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='5'>
+		<div class='collapsible-header'>
+			<div class='node-name'>All registration details filled</div>
+			<span class='node-time'>Jul 16, 2020 15:41:41</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:41:41 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894302099.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894302099.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='6'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Error message displayed-Oops! Please fix the following:</div>
+			<span class='node-time'>Jul 16, 2020 15:41:45</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:41:45 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894306140.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894306140.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+	<li class='node level-1  pass' status='pass' test-id='7'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify user navigate to login page successfully</div>
+			<span class='node-time'>Jul 16, 2020 15:41:55</span>
+			&middot; <span class='node-duration'>0h 0m 31s+204ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-2 leaf pass' status='pass' test-id='8'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Browser launched</div>
+			<span class='node-time'>Jul 16, 2020 15:41:55</span>
+			&middot; <span class='node-duration'>0h 0m 0s+2ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:41:55 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894316265.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894316265.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='9'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Login link found and clicked</div>
+			<span class='node-time'>Jul 16, 2020 15:42:26</span>
+			&middot; <span class='node-duration'>0h 0m 0s+1ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:42:26 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894346599.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894346599.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='10'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Login page displayed</div>
+			<span class='node-time'>Jul 16, 2020 15:42:26</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>3:42:26 PM</td>
+							<td class='step-details'>
+									Passed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894347147.png' src='C:\Users\hp au-620tx\git\VeenaGitTest16-07-20//Screenshots//1594894347147.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+</ul>
 					</div>
 				</li>
 			</ul>
@@ -238,19 +461,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 16, 2020 14:00:55</div>
+					<div class='panel-lead'>Jul 16, 2020 15:41:08</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 16, 2020 14:01:35</div>
+			 		<div class='panel-lead'>Jul 16, 2020 15:42:27</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 39s+534ms</div>
+					<div class='panel-lead'>0h 1m 18s+462ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -295,8 +518,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 0,
-				passGrandChild: 0,
+				grandChildCount: 7,
+				passGrandChild: 7,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -309,7 +532,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "login":25.951
+			        "Feature-Demo Test Framework":67.398
 			};
 		</script>
 	
